@@ -1,0 +1,13 @@
+{
+    "name": "kiki/myemail",
+    "description": "Email sending system using PHPMailer",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
